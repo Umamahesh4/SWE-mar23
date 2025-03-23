@@ -16,7 +16,7 @@ function Sidebar() {
       <ul>
         <li onClick={() => handleNavigation('/ranking')}><a>🏆 Ranking</a></li>
         <li onClick={() => handleNavigation('/trend')}><a >📈 Trend Analysis</a></li>
-        <li><a href="#">📊 Visualization</a></li>
+        
         <li onClick={() => handleNavigation('/mapping')}><a>📍 Monitor Multiple Locations</a></li>
         <li onClick={() => handleNavigation('/corelation')}><a>🚨 Corelation</a></li>
         <li onClick={() => handleNavigation('/image')}><a >🚨 Image Classifier</a></li>
